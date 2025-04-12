@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Pinyon+Script&family=UnifrakturMaguntia&display=swap');
+
 body {
     background-color: white;
 }
@@ -9,36 +11,41 @@ h1 {
     text-align: center;
     background: black;
     margin: 30px 70px 150px 20px;
-    padding: 10px
+    padding: 10px;
+    letter-spacing: 5px;
+    font-family: "UnifrakturMaguntia", cursive;
 }
 
 p {
     color: rgb(11, 14, 1);
-    margin-bottom: 40px;
-    margin-left: 20px;
+    text-decoration: double;
+    text-indent: 50px;
+    word-spacing: 15px;
+    font-size: 30px;
+    font-family: "Imperial Script", cursive;
 }
 
-.exemplo-background {
-    height: 100px;
-    background-size: cover;
-    border: 1px blue solid;
-    margin-bottom: 40px;
+#segundo{
+    font-family: "Pinyon Script", cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffec00;
+    background: gray;
 }
-
+ 
 .botao {
     margin-left: 33%;
     background: rgb(49, 190, 92);
     color: beige;
-    padding: 30px 50px 30px 50px;
+    padding: 20px;
     border-radius: 5px;
-    text-decoration: none;
 }
 
 .botao:hover {
     background: olive;
-    text-transform: uppercase;
     text-decoration: underline;
     font-weight: bold;
+    padding: 20px;
 }
 
 .teste {
