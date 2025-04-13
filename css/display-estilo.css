@@ -1,0 +1,53 @@
+.borda {
+    border: 1px solid rgb(126, 9, 9);
+}
+
+p,
+h1 {
+    display: inline;
+}
+
+#p1 {
+    display: block;
+}
+
+#p1:hover {
+    display: none;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+}
+
+.azul {
+    background: blue;
+}
+
+.vermelho {
+    background: red;
+}
+
+.verde {
+    background: green;
+}
+
+div {
+    width: 33%;
+    height: 150px;
+    display: block;
+    text-align: center;
+}
+
+a.botao {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+}
