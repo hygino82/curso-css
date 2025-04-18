@@ -1,0 +1,19 @@
+#formulario {
+  border: 1px solid green;
+  border-radius: 12px;
+  background-color: rgb(163, 163, 245);
+  padding: 5px;
+  margin-bottom: 13px;
+  display: block;
+  width: 70%;
+  height: 50%;
+}
+
+button {
+  margin: 5px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
