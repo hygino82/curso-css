@@ -1,0 +1,11 @@
+[
+  { "id": 1, "descricao": "Estudar JS e TS", "terminada": false },
+  { "id": 2, "descricao": "Praticar programação", "terminada": true },
+  { "id": 3, "descricao": "Ler livros de desenvolvimento", "terminada": false },
+  {
+    "id": 4,
+    "descricao": "Participar de projetos open-source",
+    "terminada": false
+  },
+  { "id": 5, "descricao": "Aprender React e Node", "terminada": true }
+]
